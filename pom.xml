@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.ozoneplatform</groupId>
+    <artifactId>ozoneplatform</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>OzonePlatform Super Project</name>
+    <description>see README.md</description>
+
+    <properties>
+    </properties>
+
+    <scm>
+        <connection>scm:git:https://www.owfgoss.org/git/repos/ozoneplatform.git</connection>
+        <developerConnection>scm:git:https://www.owfgoss.org/git/repos/ozoneplatform.git</developerConnection>
+        <url>https://www.owfgoss.org/crucible/browse/ozoneplatform/</url>
+    </scm>
+
+    <modules>
+        <module>owf</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>ozone.release</id>
+            <name>Ozone Community Release Repository</name>
+            <url>https://owfgoss.org/nexus/content/repositories/releases</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+        </repository>
+        <repository>
+            <id>ozone.snapshot</id>
+            <name>Ozone Community Snapshot Repository</name>
+            <url>https://owfgoss.org/nexus/content/repositories/snapshots</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <name>Releases</name>
+            <url>https://owfgoss.org/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <name>Snapshots</name>
+            <url>https://owfgoss.org/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>
