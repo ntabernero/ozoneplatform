@@ -10,3 +10,6 @@
 [submodule "marketplace"]
 	path = marketplace
 	url = https://www.owfgoss.org/git/repos/marketplace8.git
+[submodule "metrics"]
+	path = metrics
+	url = https://www.owfgoss.org/git/repos/metrics8.git
