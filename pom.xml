@@ -48,7 +48,7 @@
         <repository>
             <id>ozone.release</id>
             <name>Ozone Community Release Repository</name>
-            <url>https://owfgoss.org/nexus/content/repositories/releases</url>
+            <url>https://www.owfgoss.org/nexus/content/repositories/releases</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -59,7 +59,7 @@
         <repository>
             <id>ozone.snapshot</id>
             <name>Ozone Community Snapshot Repository</name>
-            <url>https://owfgoss.org/nexus/content/repositories/snapshots</url>
+            <url>https://www.owfgoss.org/nexus/content/repositories/snapshots</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -73,12 +73,12 @@
         <repository>
             <id>nexus</id>
             <name>Releases</name>
-            <url>https://owfgoss.org/nexus/content/repositories/releases</url>
+            <url>https://www.owfgoss.org/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Snapshots</name>
-            <url>https://owfgoss.org/nexus/content/repositories/snapshots</url>
+            <url>https://www.owfgoss.org/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
