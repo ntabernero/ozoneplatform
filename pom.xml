@@ -13,6 +13,21 @@
     <description>see README.md</description>
 
     <properties>
+        <osgi.version>4.2.0</osgi.version>
+        <karaf.version>2.2.5.fuse-7-061</karaf.version>
+        <build.helper.plugin.version>1.5</build.helper.plugin.version>
+        <cxf.version>2.5.0.fuse-7-061</cxf.version>
+        <fabric.version>7.0.0.fuse-061</fabric.version>
+        <slf4j.version>1.6.1</slf4j.version>
+
+        <httpcomponents.version>4.2.2</httpcomponents.version>
+
+        <!-- Added to configure which kernel web war to deploy -->
+        <!-- FUSE DISTRIBUTION -->
+        <deployable-war-groupId>ozone.kernel</deployable-war-groupId>
+        <!-- KARAF ONLY DISTRIBUTION -->
+        <!--<deployable-war-groupId>org.apache.karaf.demos</deployable-war-groupId>-->
+        <deployable-war-artifactId>web</deployable-war-artifactId>
     </properties>
 
     <scm>
