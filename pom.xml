@@ -25,6 +25,7 @@
         <module>commons</module>
         <module>owf</module>
         <module>marketplace</module>
+        <module>metrics</module>
         <module>kernel</module>
     </modules>
 
