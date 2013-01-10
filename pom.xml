@@ -22,12 +22,6 @@
 
         <httpcomponents.version>4.2.2</httpcomponents.version>
 
-        <!-- Added to configure which kernel web war to deploy -->
-        <!-- FUSE DISTRIBUTION -->
-        <deployable-war-groupId>ozone.kernel</deployable-war-groupId>
-        <!-- KARAF ONLY DISTRIBUTION -->
-        <!--<deployable-war-groupId>org.apache.karaf.demos</deployable-war-groupId>-->
-        <deployable-war-artifactId>web</deployable-war-artifactId>
     </properties>
 
     <scm>
