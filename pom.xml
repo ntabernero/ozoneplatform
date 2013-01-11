@@ -35,6 +35,7 @@
         <module>owf</module>
         <module>marketplace</module>
         <module>metrics</module>
+        <module>docs</module>
         <module>kernel</module>
     </modules>
 
