@@ -13,3 +13,6 @@
 [submodule "metrics"]
 	path = metrics
 	url = https://www.owfgoss.org/git/repos/metrics8.git
+[submodule "docs"]
+	path = docs
+	url = https://www.owfgoss.org/git/repos/docs.git
