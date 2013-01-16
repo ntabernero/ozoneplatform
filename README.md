@@ -23,7 +23,7 @@ Initial Setup
    http://maven.apache.org/download.html. Make sure that your PATH includes 
    the MVN_HOME/bin directory. 
 
-5. Be sure to give Maven enough memory `MAVEN_OPTS=-Xmx512m -XX:MaxPermSize=128m`
+5. Be sure to give Maven enough memory and stack size `MAVEN_OPTS=-Xmx512m -XX:MaxPermSize=128m -Xss1024k`
    
 6. Install NodeJS, which can be downloaded from http://nodejs.org/.
 
