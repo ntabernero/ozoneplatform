@@ -29,8 +29,12 @@ Initial Setup
 
 7. Install phantomjs(headless webkit), testacular and testem(optional) JavaScript test runners by executing following commands.
        npm install -g phantomjs (see step 8 below on Windows installation)
-       npm install -g testacular
+       npm install -g testacular@v0.5.8 
        npm install -g testem
+       
+   Note: As of 1/18/2013, the latest stable version of testacular is 0.4.  To properly test AMD style javascript modules
+   using requirejs, the project is using version 0.5.8.  The next stable build, 0.6 is expected soon at which time the
+   project will migrate to that. 
 
 8. On Windows machines, add the PHANTOMJS_BIN environment variable to point to where PhantomJS was installed.
 		e.g.  PHANTOMJS_BIN=%APPDATA%\npm\node_modules\phantomjs\lib\phantom\phantomjs.exe (this is where npm will install it on Windows)
