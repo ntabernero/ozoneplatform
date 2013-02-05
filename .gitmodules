@@ -1,18 +1,18 @@
 [submodule "owf"]
 	path = owf
-	url = https://www.owfgoss.org/git/repos/owf8.git
+	url = https://www.owfgoss.org/git/repos/ozp-owf.git
 [submodule "kernel"]
 	path = kernel
 	url = https://www.owfgoss.org/git/repos/kernel.git
 [submodule "commons"]
 	path = commons
-	url = https://www.owfgoss.org/git/repos/commons8.git
+	url = https://www.owfgoss.org/git/repos/ozp-commons.git
 [submodule "marketplace"]
 	path = marketplace
-	url = https://www.owfgoss.org/git/repos/marketplace8.git
+	url = https://www.owfgoss.org/git/repos/ozp-marketplace.git
 [submodule "metrics"]
 	path = metrics
-	url = https://www.owfgoss.org/git/repos/metrics8.git
+	url = https://www.owfgoss.org/git/repos/ozp-metrics.git
 [submodule "docs"]
 	path = docs
-	url = https://www.owfgoss.org/git/repos/docs.git
+	url = https://www.owfgoss.org/git/repos/ozp-docs.git
