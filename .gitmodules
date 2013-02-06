@@ -3,7 +3,7 @@
 	url = https://www.owfgoss.org/git/repos/ozp-owf.git
 [submodule "kernel"]
 	path = kernel
-	url = https://www.owfgoss.org/git/repos/kernel.git
+	url = https://www.owfgoss.org/git/repos/ozp-kernel.git
 [submodule "commons"]
 	path = commons
 	url = https://www.owfgoss.org/git/repos/ozp-commons.git
