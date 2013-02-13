@@ -51,6 +51,7 @@ logs/*
 *.ipr
 *.iws
 *.iml
+atlassian-ide-plugin.xml
 #Eclipse
 *.classpath
 *.project
