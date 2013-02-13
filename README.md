@@ -55,21 +55,20 @@ Building
 
 Running
 --------
-1. Unpack the zip file kernel/deployment/target/deployment-8.0.0-ALPHA-SPRINT3-SNAPSHOT.zip
-2. Run deployment-8.0.0-ALPHA-SPRINT3-SNAPSHOT/apache-tomcat-7.0.32/start.bat
-3. You must wait until the kernel has loaded.  
-   The "Server startup in xxx ms" only indicates Tomcat has started.
+1. Unpack the zip file kernel/deployment/target/deployment-8.0.0-ALPHA-SPRINT3.zip
+2. Run deployment-8.0.0-ALPHA-SPRINT3/apache-tomcat-7.0.32/start.bat
+3. You must wait until the kernel has loaded.  The "Server startup in xxx ms" only indicates Tomcat has started.
    The kernel is loaded when all console output stops.
-4. To view OWF, use URL http://localhost:8181/owf/index_debug.html
+4. To view OWF, use URL http://localhost:8181/owf/index_debug.html 
 5. To view the web console that manages the OSGI modules running in the kernel, use http://localhost:8181/system/console
    and use login: "karaf", password: "karaf"
    
-6. Alpha release 3 introduces several different layout capabilities, but as OWF8 does not have the ability to switch between dashboards.
-   To see the layouts, hit the following URLs
-     Desktop layout - http://localhost:8181/owf/index_debug.html#guid=21a777b9-96e5-4f64-883e-8067ba99b3ee
-     Fit layout - http://localhost:8181/owf/index_debug.html#guid=31a777b9-96e5-4f64-883e-8067ba99b3ee
-     Portal layout -  http://localhost:8181/owf/index_debug.html#guid=11a777b9-96e5-4f64-883e-8067ba99b3ff
-     Two paned dashboard, one using tab layout one using fit layout - http://localhost:8181/owf/index_debug.html#guid=11a777b9-96e5-4f64-883e-8067ba99b3ee
+6. Alpha release 3 introduces several different layout capabilities, but as OWF8 does not have the ability to switch between dashboards.  To see the layouts, hit the following URLs:
+     Desktop layout - http://localhost:8181/owf/index_debug.html#guid=21a777b9-96e5-4f64-883e-8067ba99b3ee 
+     Fit layout - http://localhost:8181/owf/index_debug.html#guid=31a777b9-96e5-4f64-883e-8067ba99b3ee 
+     Portal layout -  http://localhost:8181/owf/index_debug.html#guid=11a777b9-96e5-4f64-883e-8067ba99b3ff 
+     Two paned dashboard, one using tab layout one using fit layout - http://localhost:8181/owf/index_debug.html#guid=11a777b9-96e5-4f64-883e-8067ba99b3ee 
 7. Alpha release 3 also has the first functionality of the dashboard designer, splitting a dashboard up into multiple panes.
    This can be viewed by pressing the "Create Dashboard" button in the toolbar.
-   
+
+Note that changes to dashboards and their layouts will not as yet be persisted.  Soon to come!
