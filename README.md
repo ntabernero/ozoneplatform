@@ -44,7 +44,6 @@ Initial Setup
 		Note that the path to PhantomJS cannot have spaces in it.  If you are on Windows XP, Npm will insist on installing it in a path
 		with spaces, and you must manually download PhantomJS off the internet and install it yourself.
 
-
 Building
 --------
 1. Run `mvn clean install` from the root folder
@@ -55,4 +54,27 @@ Building
 
 Running
 --------
-1. 
+1. Unpack the zip file kernel/deployment/target/deployment-XXX.zip
+2. Run deployment-XXX/apache-tomcat-7.0.32/start.bat
+3. You must wait until the kernel has loaded.
+	The "Server startup in xxx ms" only indicates Tomcat has started.
+	The kernel is loaded when all console output stops.
+4. To view OWF, use URL http://localhost:8181/owf/index_debug.html
+5. To view the web console that manages the OSGI modules running in the kernel, use http://localhost:8181/system/console
+	and use login: "karaf", password: "karaf"
+	
+Note on Git and Submodules
+--------------------------
+Each ozoneplatform sub-project is kept as a Git sub-module.  To pull changes from git execute
+ * `git pull`
+ * `git submodule update`
+
+ This mechanism for pulling submodules will pull the versions of the submodules associated with that version
+ of the super-module, and the ozoneplatform super-module is only updated every alpha release.  If you want daily 
+ updates to the sub-modules, you must explicitly break each sub-module from using the version associated with the 
+ super-module.  You can do this using the commands
+  * `git submodule foreach git checkout master`
+  
+ Once you have done that, you can get the very latest changes with
+  * `git pull`
+  * `git submodule foreach git pull`
