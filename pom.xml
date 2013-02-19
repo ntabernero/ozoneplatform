@@ -17,7 +17,7 @@
     	<build.helper.plugin.version>1.5</build.helper.plugin.version>
         <cxf.version>2.6.0.fuse-71-047</cxf.version>
         <slf4j.version>1.6.6</slf4j.version>
-        <groovy.version>2.0.6</groovy.version>
+        <groovy.version>2.1.0</groovy.version>
         <jackson.version>2.1.2</jackson.version>
 
         <httpcomponents.version>4.2.2</httpcomponents.version>
