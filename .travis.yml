@@ -6,12 +6,12 @@ node_js:
 rvm:
   - 1.9.2
 before_install:
-  - git submodule update --init --recursive
+  - git submodule update --init --recursive &> /dev/null
   - npm install -g testacular@v0.5.8
   - gem install sass
   - gem install compass
 install: /bin/true
-script:  mvn clean install -q
+script:  mvn install 2>&1 | cut -c -80
 branches:
   only:
     - master
