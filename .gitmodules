@@ -1,18 +1,18 @@
 [submodule "owf"]
 	path = owf
-	url = https://github.com/ozoneplatform/ozp-owf.git
+	url = https://github.com/ntabernero/ozp-owf.git
 [submodule "kernel"]
 	path = kernel
-	url = https://github.com/ozoneplatform/ozp-kernel.git
+	url = https://github.com/ntabernero/ozp-kernel.git
 [submodule "commons"]
 	path = commons
-	url = https://github.com/ozoneplatform/ozp-commons.git
+	url = https://github.com/ntabernero/ozp-commons.git
 [submodule "marketplace"]
 	path = marketplace
-	url = https://github.com/ozoneplatform/ozp-marketplace.git
+	url = https://github.com/ntabernero/ozp-marketplace.git
 [submodule "metrics"]
 	path = metrics
-	url = https://github.com/ozoneplatform/ozp-metrics.git
+	url = https://github.com/ntabernero/ozp-metrics.git
 [submodule "docs"]
 	path = docs
-	url = https://github.com/ozoneplatform/ozp-docs.git
+	url = https://github.com/ntabernero/ozp-docs.git
